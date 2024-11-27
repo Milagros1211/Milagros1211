@@ -1,10 +1,14 @@
+import datetime
+
 # Solicitar al usuario que ingrese datos
-nombre = input("Ingrese su nombre: ")
-edad = input("Ingrese su edad: ")
-ciudad = input("Ingrese su ciudad: ")
+bag_type = input("Tipo de bolsa de carbon: ")
+carbon_type = input("Tipo de carbon: ")
+volume = input("Ingrese el volumen ingresado: ")
+timestamp = datetime.datetime.now()
 
 # Imprimir los datos ingresados
 print("\nDatos ingresados:")
-print("Nombre:", nombre)
-print("Edad:", edad)
-print("Ciudad:", ciudad)
+print("Tipo de bolsa:", bag_type)
+print("Tipo de carbon:", carbon_type)
+print("Volumen ingresado:", volume)
+print("Fecha de ingreso:", timestamp)
